@@ -13,26 +13,30 @@ manuscript/               # Book content (Markdown)
 │   │   ├── 11-kubernetes-networking.md  # CNI, Services, kube-proxy, Ingress
 │   │   └── 12-kubernetes-storage.md     # PV/PVC, CSI drivers, ephemeral storage
 │   ├── part2-go-runtime/
-│   │   ├── 13-scheduler.md
-│   │   ├── 14-gc.md
-│   │   ├── 15-netpoller.md
-│   │   └── 16-profiling.md
+│   │   ├── 13-scheduler.md              # GMP model, work stealing, preemption
+│   │   ├── 14-memory-allocator.md       # mcache, mcentral, mheap, size classes
+│   │   ├── 15-gc.md                     # Mark-sweep, GreenTeaGC experimental
+│   │   ├── 16-netpoller.md              # epoll, I/O multiplexing, async I/O
+│   │   ├── 17-channels.md               # Channel internals, select, patterns
+│   │   ├── 18-maps.md                   # Hash tables, SwissMap (Go 1.25)
+│   │   ├── 19-defer-panic-recover.md    # Stack unwinding, error handling
+│   │   └── 20-profiling.md              # pprof, trace, flame graphs
 │   ├── part3-observability/
-│   │   ├── 17-prometheus-setup.md
-│   │   ├── 18-grafana-dashboards.md
-│   │   ├── 19-tracing-otlp.md
-│   │   ├── 20-exporters.md              # node_exporter, cAdvisor, kube-state-metrics
-│   │   ├── 21-host-vm-container.md      # Dashboards for each layer
-│   │   └── 22-alerts-slos.md
+│   │   ├── 21-prometheus-setup.md
+│   │   ├── 22-grafana-dashboards.md
+│   │   ├── 23-tracing-otlp.md
+│   │   ├── 24-exporters.md              # node_exporter, cAdvisor, kube-state-metrics
+│   │   ├── 25-host-vm-container.md      # Dashboards for each layer
+│   │   └── 26-alerts-slos.md
 │   ├── part4-s3-cache/
-│   │   ├── 23-architecture.md
-│   │   ├── 24-implementation.md
-│   │   ├── 25-observability.md          # Wiring metrics/traces into the app
-│   │   ├── 26-optimization.md
-│   │   ├── 27-testing.md
-│   │   ├── 28-deployment.md             # Bare metal, Docker, K8s manifests
-│   │   ├── 29-troubleshooting.md
-│   │   └── 30-advanced.md
+│   │   ├── 27-architecture.md
+│   │   ├── 28-implementation.md
+│   │   ├── 29-observability.md          # Wiring metrics/traces into the app
+│   │   ├── 30-optimization.md
+│   │   ├── 31-testing.md
+│   │   ├── 32-deployment.md             # Bare metal, Docker, K8s manifests
+│   │   ├── 33-troubleshooting.md
+│   │   └── 34-advanced.md
 │   ├── appendices/
 │   │   ├── a-quick-reference.md
 │   │   ├── b-tools-setup.md
