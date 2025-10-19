@@ -1,0 +1,6 @@
+[submodule "hpgal-manuscript"]
+	path = hpgal-manuscript
+	url = git@github.com:vzahanych/hpgal-manuscript.git
+[submodule "hpgal-publisher"]
+	path = hpgal-publisher
+	url = git@github.com:vzahanych/hpgal-publisher.git
